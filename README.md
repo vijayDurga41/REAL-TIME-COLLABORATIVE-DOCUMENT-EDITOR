@@ -24,4 +24,4 @@ Dynamic UI with React: Provides a responsive and interactive user interface for 
 Full-Stack Integration: Demonstrates integration between a React frontend, a Node.js/Socket.IO backend, and a MongoDB database for a complete real-time application.
 Important Disclaimer: This project provides the framework for real-time communication and persistence. However, for a production-grade collaborative editor that handles simultaneous edits from multiple users without data loss or conflicts (e.g., if two users type in the exact same spot), advanced algorithms like Operational Transformation (OT) or Conflict-Free Replicated Data Types (CRDTs) are required. This specific implementation uses a simplified "last write wins" approach, which is prone to race conditions in high-concurrency scenarios.
 
-*OUTPUT*:
+*OUTPUT*:![Image](https://github.com/user-attachments/assets/5dc9d187-15d8-4133-88e5-f8fcef2645d9)
